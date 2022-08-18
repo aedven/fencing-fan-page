@@ -1,0 +1,106 @@
+header {
+  display: block;
+  padding: 1px 20px 20px;
+  border-radius: 30px;
+  background: rgba(10, 10, 10, 0.57);
+  text-align: center;
+}
+
+h1 {
+  color: rgb(210, 234, 83);
+  font: 200% "Algerian", serif;
+}
+
+a {
+  color: rgb(210, 234, 83);
+  text-decoration: none;
+}
+
+nav {
+  color: rgb(210, 234, 83);
+  font: small-caps 150% "Franklin Gothic Medium", serif;
+}
+nav a {
+  display: inline-block;
+  width: 22%;
+  border-radius: 5px;
+  color: rgb(210, 234, 83);
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgb(22, 94, 122);
+}
+
+body {
+  position: relative;
+  bottom: 30px;
+  margin: 4%;
+  background: rgb(86, 92, 100);
+}
+
+h2 {
+  padding: 5px;
+  border-radius: 10px;
+  background: rgba(10, 10, 10, 0.57);
+  color: rgb(210, 234, 83);
+  font-family: "Algerian", serif;
+  text-align: center;
+}
+
+.half {
+  position: relative;
+  float: left;
+  width: 45%;
+  margin-right: 2%;
+  margin-left: 34px;
+}
+
+.half > h2 {
+  position: relative;
+  right: 20px;
+  width: 107.5%;
+}
+
+.whole {
+  clear: both;
+  display: block;
+  margin: 0 15px;
+}
+
+p, li, summary, details {
+  color: rgb(210, 234, 83);
+  font: "Berlin Sans FB", serif;
+}
+
+details {
+  margin-left: 15px;
+  font-style: italic;
+}
+
+summary {
+  margin-left: 5px;
+  font-style: normal;
+}
+
+span {
+  margin-left: 15px;
+  color: rgb(210, 234, 83);
+}
+
+progress {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+footer {
+  position: relative;
+  top: 140px;
+  clear: both;
+  display: block;
+  margin: 10px;
+  padding: 1px 20px 10px;
+  border-radius: 30px;
+  background-color: rgba(10, 10, 10, 0.57);
+}
+
+/*# sourceMappingURL=index.css.map */

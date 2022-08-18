@@ -1,0 +1,120 @@
+@import "variables";
+
+header {
+  display: block;
+  padding: 1px 20px 20px;
+  border-radius: 30px;
+  background: $background-color;
+  text-align: center;
+}
+
+h1 {
+  color: $font-color;
+  font: 200% $primary-font;
+}
+
+a {
+  color: $font-color;
+  text-decoration: none;
+}
+
+nav {
+  color: $font-color;
+  font: small-caps 150% "Franklin Gothic Medium", serif;
+
+  a {
+    display: inline-block;
+    width: 22%;
+    border-radius: 5px;
+    color: $font-color;
+    text-decoration: none;
+
+    &:hover {
+      color: rgb(22 94 122);
+    }
+  }
+}
+
+body {
+  position: relative;
+  bottom: 30px;
+  margin: 4%;
+  background: $primary-color;
+}
+
+h2 {
+  padding: 5px;
+  border-radius: 10px;
+  background: $background-color;
+  color: $font-color;
+  font-family: $primary-font;
+  text-align: center;
+}
+
+.half {
+  position: relative;
+  float: left;
+  width: 45%;
+  margin-right: 2%;
+  margin-left: 34px;
+}
+
+.half > h2 {
+  position: relative;
+  right: 20px;
+  width: 107.5%;
+}
+
+.whole {
+  clear: both;
+  display: block;
+  margin: 0 15px;
+}
+
+%minor {
+  color: $font-color;
+  font: $minor-font;
+}
+
+details {
+  @extend %minor;
+
+  margin-left: 15px;
+  font-style: italic;
+}
+
+summary {
+  @extend %minor;
+
+  margin-left: 5px;
+  font-style: normal;
+}
+
+li {
+  @extend %minor;
+}
+
+p {
+  @extend %minor;
+}
+
+span {
+  margin-left: 15px;
+  color: $font-color;
+}
+
+progress {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+footer {
+  position: relative;
+  top: 140px;
+  clear: both;
+  display: block;
+  margin: 10px;
+  padding: 1px 20px 10px;
+  border-radius: 30px;
+  background-color: $background-color;
+}
